@@ -11,8 +11,7 @@
 @implementation UIImageView (RotateImgV)
 
 - (void)rotate360DegreeWithImageView {
-    CABasicAnimation * rotationAnimation;
-    rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    CABasicAnimation * = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
     rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
     rotationAnimation.duration = 2;
     rotationAnimation.cumulative = YES;
